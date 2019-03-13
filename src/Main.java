@@ -46,9 +46,10 @@ public class Main {
 					}
 
 					tokens.add(new Token("" + c, "Simbolo especial", posicao++));
-				} else if (isPalavraReservada(processando)) {
-					tokens.add(new Token(processando, "Palavra reservada", posicao++));
-					processando = "";
+					/*
+					 * } else if (isPalavraReservada(processando)) { tokens.add(new
+					 * Token(processando, "Palavra reservada", posicao++)); processando = "";
+					 */
 				} else {
 //					concatena o char com os ja lidos para formar um identificador
 					processando = processando + c;
