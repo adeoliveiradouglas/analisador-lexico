@@ -1,5 +1,5 @@
 program helloworld;
 notas
 begin
-	writeln('hello world');
+	//writeln('hello world');
 end.
